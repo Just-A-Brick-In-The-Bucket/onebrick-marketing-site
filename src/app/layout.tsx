@@ -7,10 +7,10 @@ import '@/styles/tailwind.css'
 export const metadata: Metadata = {
   title: {
     template: '%s - TaxPal',
-    default: 'TaxPal - Accounting made simple for small businesses',
+    default: 'OneBrick - All-In-One LEGO Selling Solution',
   },
   description:
-    'Most bookkeeping software is accurate, but hard to use. We make the opposite trade-off, and hope you don’t get audited.',
+    'Seamlessly manage your orders, inventory, and customer support in ONE unified platform. Sync with BrickLink and BrickOwl, streamline order fulfillment, track sales, and enhance customer satisfaction with ease.',
 }
 
 const inter = Inter({
