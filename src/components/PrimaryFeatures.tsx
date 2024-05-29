@@ -14,27 +14,27 @@ import screenshotVatReturns from '@/images/screenshots/vat-returns.png'
 
 const features = [
   {
-    title: 'Payroll',
+    title: 'Picking',
     description:
-      "Keep track of everyone's salaries and whether or not they've been paid. Direct deposit not supported.",
+      "Easily add orders from any selling platform into a single picksheet to fulfill all at once.",
     image: screenshotPayroll,
   },
   {
-    title: 'Claim expenses',
+    title: 'Verification',
     description:
-      "All of your receipts organized into one place, as long as you don't mind typing in the data by hand.",
+      "Individually verify each order after picking to be sure your customer gets all their items.",
     image: screenshotExpenses,
   },
   {
-    title: 'VAT handling',
+    title: 'Packing',
     description:
-      "We only sell our software to companies who don't deal with VAT at all, so technically we do all the VAT stuff they need.",
+      "Quickly copy your customers' addresses and paste in tracking information to keep your customers informed about their order.",
     image: screenshotVatReturns,
   },
   {
-    title: 'Reporting',
+    title: 'Shipping',
     description:
-      'Easily export your data into an Excel spreadsheet where you can do whatever the hell you want with it.',
+      'With the click of a single button, mark all packed orders as shipped and send the Drive Thur messages on BrickLink.',
     image: screenshotReporting,
   },
 ]
@@ -76,11 +76,10 @@ export function PrimaryFeatures() {
       <Container className="relative">
         <div className="max-w-2xl md:mx-auto md:text-center xl:max-w-none">
           <h2 className="font-display text-3xl tracking-tight text-white sm:text-4xl md:text-5xl">
-            Everything you need to run your books.
+            Everything you need to fulfill your orders.
           </h2>
           <p className="mt-6 text-lg tracking-tight text-blue-100">
-            Well everything you need if you aren’t that picky about minor
-            details like tax compliance.
+            Picking, Verification, Packing, and Shipping, all in ONE place!
           </p>
         </div>
         <TabGroup
