@@ -108,18 +108,19 @@ export function Header() {
               <Logo className="h-10 w-auto" />
             </Link>
             <div className="hidden md:flex md:gap-x-6">
-              <NavLink href="#features">Features</NavLink>
-              <NavLink href="#testimonials">Testimonials</NavLink>
+              <NavLink href="#features">Fulfillment</NavLink>
+              <NavLink href="#secondary-features">Inventory</NavLink>
+              <NavLink href="#testimonials">Reports</NavLink>
               <NavLink href="#pricing">Pricing</NavLink>
             </div>
           </div>
           <div className="flex items-center gap-x-5 md:gap-x-8">
             <div className="hidden md:block">
-              <NavLink href="/login">Sign in</NavLink>
+              <NavLink href="/login">Sign In</NavLink>
             </div>
             <Button href="/register" color="blue">
               <span>
-                Get started <span className="hidden lg:inline">today</span>
+                Sign Up <span className="hidden lg:inline">Now</span>
               </span>
             </Button>
             <div className="-mr-1 md:hidden">
