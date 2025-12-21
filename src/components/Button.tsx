@@ -11,16 +11,16 @@ const baseStyles = {
 const variantStyles = {
   solid: {
     slate:
-      'bg-slate-900 text-white hover:bg-slate-700 hover:text-slate-100 active:bg-slate-800 active:text-slate-300 focus-visible:outline-slate-900',
-    blue: 'bg-blue-600 text-white hover:text-slate-100 hover:bg-blue-500 active:bg-blue-800 active:text-blue-100 focus-visible:outline-blue-600',
+      'bg-violet-800 text-white hover:bg-violet-600 hover:text-violet-100 active:bg-violet-600 active:text-violet-100 focus-visible:outline-violet-600',
+    blue: 'bg-violet-800 text-white hover:text-slate-100 hover:bg-violet-600 active:bg-violet-600 active:text-violet-100 focus-visible:outline-violet-600',
     white:
       'bg-white text-slate-900 hover:bg-blue-50 active:bg-blue-200 active:text-slate-600 focus-visible:outline-white',
   },
   outline: {
     slate:
-      'ring-slate-200 text-slate-700 hover:text-slate-900 hover:ring-slate-300 active:bg-slate-100 active:text-slate-600 focus-visible:outline-blue-600 focus-visible:ring-slate-300',
+      'ring-violet-200 text-white-700 hover:text-violet-900 hover:ring-slate-300 active:bg-violet-100 active:text-violet-600 focus-visible:outline-violet-600 focus-visible:ring-violet-300',
     white:
-      'ring-slate-700 text-white hover:ring-slate-500 active:ring-slate-700 active:text-slate-400 focus-visible:outline-white',
+      'ring-violet-700 text-white hover:ring-vhite-500 active:ring-white-700 active:text-white-400 focus-visible:outline-white',
   },
 }
 

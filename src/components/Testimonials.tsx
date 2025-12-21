@@ -88,12 +88,12 @@ export function Testimonials() {
       <Container>
         <div className="mx-auto max-w-2xl md:text-center">
           <h2 className="font-display text-3xl tracking-tight text-slate-900 sm:text-4xl">
-            Loved by businesses worldwide.
+          Comprehensive reporting in ONE easy-to-view page.
           </h2>
           <p className="mt-4 text-lg tracking-tight text-slate-700">
-            Our software is so simple that people can’t help but fall in love
-            with it. Simplicity is easy when you just skip tons of
-            mission-critical features.
+          The streamlined reporting page simplifies data analysis, enabling you to 
+          make informed decisions quickly and efficiently. Get everything 
+          you need in ONE place to drive your business forward.
           </p>
         </div>
         <ul

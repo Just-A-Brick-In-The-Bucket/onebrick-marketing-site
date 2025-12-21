@@ -20,10 +20,10 @@ interface Feature {
 
 const features: Array<Feature> = [
   {
-    name: 'Reporting',
-    summary: 'Stay on top of things with always up-to-date reporting features.',
+    name: 'Inventory Editing',
+    summary: 'Easily edit inventory with our inventory search or reassignment pages.',
     description:
-      'We talked about reporting in the section above but we needed three items here, so mentioning it one more time for posterity.',
+      'OneBrick makes it simple to change price, quantity, location, and more on our easy-to-use inventory search page, or location based reassignment page.',
     image: screenshotProfitLoss,
     icon: function ReportingIcon() {
       let id = useId()
@@ -54,11 +54,11 @@ const features: Array<Feature> = [
     },
   },
   {
-    name: 'Inventory',
+    name: 'Direct BSX Uploading',
     summary:
-      'Never lose track of what’s in stock with accurate inventory tracking.',
+      'Upload BSX files direclty to OneBrick to add to your existing inventory.',
     description:
-      'We don’t offer this as part of our software but that statement is inarguably true. Accurate inventory tracking would help you for sure.',
+      'OneBrick is built for the industry-standard BSX file. This makes uploading and making edits to files a breeze when adding parts to your inventory!',
     image: screenshotInventory,
     icon: function InventoryIcon() {
       return (
@@ -82,11 +82,11 @@ const features: Array<Feature> = [
     },
   },
   {
-    name: 'Contacts',
+    name: 'Single Item Adding',
     summary:
-      'Organize all of your contacts, service providers, and invoices in one place.',
+      'Easily add a single item to your inventory with Brickognize.',
     description:
-      'This also isn’t actually a feature, it’s just some friendly advice. We definitely recommend that you do this, you’ll feel really organized and professional.',
+      'Upload individual parts one at a time using Brickognize build directly into the OneBrick inventory page without needing to create a BSX!',
     image: screenshotContacts,
     icon: function ContactsIcon() {
       return (
@@ -123,7 +123,7 @@ function Feature({
       <div
         className={clsx(
           'w-9 rounded-lg',
-          isActive ? 'bg-blue-600' : 'bg-slate-500',
+          isActive ? 'bg-violet-800' : 'bg-slate-500',
         )}
       >
         <svg aria-hidden="true" className="h-9 w-9" fill="none">
@@ -133,7 +133,7 @@ function Feature({
       <h3
         className={clsx(
           'mt-6 text-sm font-medium',
-          isActive ? 'text-blue-600' : 'text-slate-600',
+          isActive ? 'text-violet-800' : 'text-slate-600',
         )}
       >
         {feature.name}
@@ -237,8 +237,7 @@ export function SecondaryFeatures() {
             Manage your inventory with ease.
           </h2>
           <p className="mt-4 text-lg tracking-tight text-slate-700">
-            Because you’d probably be a little confused if we suggested you
-            complicate your everyday business tasks instead.
+            Built specifically for LEGO sellers to manage, edit, and sync inventory across platforms without any manual work or worry.
           </p>
         </div>
         <FeaturesMobile />

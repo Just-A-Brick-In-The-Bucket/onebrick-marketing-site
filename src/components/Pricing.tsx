@@ -69,7 +69,7 @@ function Plan({
     <section
       className={clsx(
         'flex flex-col rounded-3xl px-6 sm:px-8',
-        featured ? 'order-first bg-blue-600 py-8 lg:order-none' : 'lg:py-8',
+        featured ? 'order-first bg-violet-950 py-8 lg:order-none' : 'lg:py-8',
       )}
     >
       <h3 className="mt-5 font-display text-lg text-white">{name}</h3>
@@ -99,7 +99,7 @@ function Plan({
         ))}
       </ul>
       <Button
-        href={href}
+        href="https://onebrick.app/register" target='blank'
         variant={featured ? 'solid' : 'outline'}
         color="white"
         className="mt-8"
@@ -122,19 +122,19 @@ export function Pricing() {
         <div className="md:text-center">
           <h2 className="font-display text-3xl tracking-tight text-white sm:text-4xl">
             <span className="relative whitespace-nowrap">
-              <SwirlyDoodle className="absolute left-0 top-1/2 h-[1em] w-full fill-blue-400" />
+              <SwirlyDoodle className="absolute left-0 top-1/2 h-[1em] w-full fill-violet-900" />
               <span className="relative">ONE plan,</span>
             </span>{' '}
             ONE price.
           </h2>
-          <p className="mt-4 text-lg text-slate-400">
+          <p className="mt-4 text-lg text-slate-300">
             No matter the size of your store or the size of your budget, there is a plan for you!
           </p>
         </div>
         <div className="-mx-4 mt-16 grid max-w-2xl grid-cols-1 gap-y-10 sm:mx-auto lg:-mx-8 lg:max-w-none lg:grid-cols-3 xl:mx-0 xl:gap-x-8">
           <Plan
             name="Solo"
-            price="$14/mo"
+            price="$29/mo"
             description="Good for those small stores processing up to 50 order per month."
             href="/register"
             features={[
@@ -148,7 +148,7 @@ export function Pricing() {
           <Plan
             featured
             name="Seller"
-            price="$34/mo"
+            price="$49/mo"
             description="Perfect for small / medium sized stores processing up to 150 orders per month."
             href="/register"
             features={[
@@ -163,7 +163,7 @@ export function Pricing() {
           />
           <Plan
             name="Seller Plus"
-            price="$59/mo"
+            price="$99/mo"
             description="Designed for medium / large stores processing over 150 orders per month."
             href="/register"
             features={[

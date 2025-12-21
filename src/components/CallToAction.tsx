@@ -8,7 +8,7 @@ export function CallToAction() {
   return (
     <section
       id="get-started-today"
-      className="relative overflow-hidden bg-blue-600 py-32"
+      className="relative overflow-hidden bg-violet-950 py-32"
     >
       <Image
         className="absolute left-1/2 top-1/2 max-w-none -translate-x-1/2 -translate-y-1/2"
@@ -26,7 +26,7 @@ export function CallToAction() {
           <p className="mt-4 text-lg tracking-tight text-white">
           Effortlessly unite your unconsolidated inventory and create a seamless purchase experience for your customers.
           </p>
-          <Button href="/register" color="white" className="mt-10">
+          <Button href="https://onebrick.app/register" target='blank' color="white" className="mt-10">
             Sign Up Now
           </Button>
         </div>

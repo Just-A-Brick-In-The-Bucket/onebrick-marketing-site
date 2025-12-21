@@ -6,7 +6,7 @@ import '@/styles/tailwind.css'
 
 export const metadata: Metadata = {
   title: {
-    template: '%s - TaxPal',
+    template: 'OneBrick',
     default: 'OneBrick - All-In-One LEGO Selling Solution',
   },
   description:
