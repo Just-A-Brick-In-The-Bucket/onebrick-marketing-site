@@ -28,13 +28,17 @@ export function Hero() {
         for all your selling needs.
       </h1>
       <p className="mx-auto mt-6 max-w-2xl text-lg tracking-tight text-slate-700">
-        Seamlessly manage your orders, inventory, and customer support in ONE unified platform. Sync with BrickLink and BrickOwl, streamline order fulfillment. track sales, and enhance customer satisfaction with ease.
+        Seamlessly manage your orders, inventory, and customer support in ONE
+        unified platform. Sync with BrickLink and BrickOwl, streamline order
+        fulfillment. track sales, and enhance customer satisfaction with ease.
       </p>
       <div className="mt-10 flex justify-center gap-x-6">
-        <Button href="https://onebrick.app/register" target='blank'
-        >Sign Up Now</Button>
+        <Button href="https://onebrick.app/register" target="blank">
+          Sign Up Now
+        </Button>
         <Button
-          href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target='blank'
+          href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+          target="blank"
           variant="outline"
         >
           <svg

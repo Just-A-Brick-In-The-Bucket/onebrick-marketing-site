@@ -99,7 +99,8 @@ function Plan({
         ))}
       </ul>
       <Button
-        href="https://onebrick.app/register" target='blank'
+        href="https://onebrick.app/register"
+        target="blank"
         variant={featured ? 'solid' : 'outline'}
         color="white"
         className="mt-8"
@@ -128,7 +129,8 @@ export function Pricing() {
             ONE price.
           </h2>
           <p className="mt-4 text-lg text-slate-300">
-            No matter the size of your store or the size of your budget, there is a plan for you!
+            No matter the size of your store or the size of your budget, there
+            is a plan for you!
           </p>
         </div>
         <div className="-mx-4 mt-16 grid max-w-2xl grid-cols-1 gap-y-10 sm:mx-auto lg:-mx-8 lg:max-w-none lg:grid-cols-3 xl:mx-0 xl:gap-x-8">

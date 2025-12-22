@@ -16,13 +16,13 @@ const features = [
   {
     title: 'Picking',
     description:
-      "Easily add orders from any selling platform into a single picksheet to fulfill all at once.",
+      'Easily add orders from any selling platform into a single picksheet to fulfill all at once.',
     image: screenshotPayroll,
   },
   {
     title: 'Verification',
     description:
-      "Individually verify each order after picking to be sure your customer gets all their items.",
+      'Individually verify each order after picking to be sure your customer gets all their items.',
     image: screenshotExpenses,
   },
   {

@@ -116,9 +116,13 @@ export function Header() {
           </div>
           <div className="flex items-center gap-x-5 md:gap-x-8">
             <div className="hidden md:block">
-              <NavLink href="https://onebrick.app/login" >Sign In</NavLink>
+              <NavLink href="https://onebrick.app/login">Sign In</NavLink>
             </div>
-            <Button href="https://onebrick.app/register" target='blank' color="blue">
+            <Button
+              href="https://onebrick.app/register"
+              target="blank"
+              color="blue"
+            >
               <span>
                 Sign Up <span className="hidden lg:inline">Now</span>
               </span>

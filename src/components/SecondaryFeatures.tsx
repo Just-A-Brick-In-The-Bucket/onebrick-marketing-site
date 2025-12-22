@@ -21,7 +21,8 @@ interface Feature {
 const features: Array<Feature> = [
   {
     name: 'Inventory Editing',
-    summary: 'Easily edit inventory with our inventory search or reassignment pages.',
+    summary:
+      'Easily edit inventory with our inventory search or reassignment pages.',
     description:
       'OneBrick makes it simple to change price, quantity, location, and more on our easy-to-use inventory search page, or location based reassignment page.',
     image: screenshotProfitLoss,
@@ -83,8 +84,7 @@ const features: Array<Feature> = [
   },
   {
     name: 'Single Item Adding',
-    summary:
-      'Easily add a single item to your inventory with Brickognize.',
+    summary: 'Easily add a single item to your inventory with Brickognize.',
     description:
       'Upload individual parts one at a time using Brickognize build directly into the OneBrick inventory page without needing to create a BSX!',
     image: screenshotContacts,
@@ -237,7 +237,8 @@ export function SecondaryFeatures() {
             Manage your inventory with ease.
           </h2>
           <p className="mt-4 text-lg tracking-tight text-slate-700">
-            Built specifically for LEGO sellers to manage, edit, and sync inventory across platforms without any manual work or worry.
+            Built specifically for LEGO sellers to manage, edit, and sync
+            inventory across platforms without any manual work or worry.
           </p>
         </div>
         <FeaturesMobile />

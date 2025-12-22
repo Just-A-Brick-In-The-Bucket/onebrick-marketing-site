@@ -24,9 +24,15 @@ export function CallToAction() {
             Complex Lots
           </h2>
           <p className="mt-4 text-lg tracking-tight text-white">
-          Effortlessly unite your unconsolidated inventory and create a seamless purchase experience for your customers.
+            Effortlessly unite your unconsolidated inventory and create a
+            seamless purchase experience for your customers.
           </p>
-          <Button href="https://onebrick.app/register" target='blank' color="white" className="mt-10">
+          <Button
+            href="https://onebrick.app/register"
+            target="blank"
+            color="white"
+            className="mt-10"
+          >
             Sign Up Now
           </Button>
         </div>

@@ -12,7 +12,8 @@ const faqs = [
     },
     {
       question: 'Is OneBrick suitable for all business owners?',
-      answer: 'Absolutely! OneBrick is designed to cater to stores of all sizes, from small hobbyists to large businesses, providing scalable solutions to meet your specific needs.',
+      answer:
+        'Absolutely! OneBrick is designed to cater to stores of all sizes, from small hobbyists to large businesses, providing scalable solutions to meet your specific needs.',
     },
     {
       question: 'Is there a mobile version of OneBrick available?',
@@ -27,8 +28,7 @@ const faqs = [
         'We regularly update OneBrick to introduce new features, improve existing functionalities, and ensure compatibility with the latest market trends and technologies.  Most updates will occur at 5:00pm PDT on Wednesdays.  For larger releases, we will have a new release version announced.',
     },
     {
-      question:
-        'Is there a trial period for OneBrick?',
+      question: 'Is there a trial period for OneBrick?',
       answer:
         'Yes, we offer a free trial period for you to explore the features and benefits of OneBrick before making a commitment.',
     },
@@ -46,11 +46,14 @@ const faqs = [
         'OneBrick is a cloud-based software, so it does not require specific hardware. You can access OneBrick from any modern device with internet connectivity and a web browser.',
     },
     {
-      question: 'Is there a limit to the number of users who can access my store on OneBrick?',
-      answer: 'OneBrick offers different subscription plans with varying user access levels, depending on the size and needs of your business.',
+      question:
+        'Is there a limit to the number of users who can access my store on OneBrick?',
+      answer:
+        'OneBrick offers different subscription plans with varying user access levels, depending on the size and needs of your business.',
     },
     {
-      question: 'Can I use OneBrick for my store if I\'m not located in the United States?',
+      question:
+        "Can I use OneBrick for my store if I'm not located in the United States?",
       answer:
         'As of now, OneBrick only supports U.S. based stores, however we do plan to open up to more sellers worldwide in the future.',
     },
@@ -81,7 +84,8 @@ export function Faqs() {
             Frequently asked questions
           </h2>
           <p className="mt-4 text-lg tracking-tight text-slate-700">
-            If you can’t find what you’re looking for, reach out to us at: support@onebrick.app, and we'll get back to you soon!
+            If you can’t find what you’re looking for, reach out to us at:
+            support@onebrick.app, and we'll get back to you soon!
           </p>
         </div>
         <ul
