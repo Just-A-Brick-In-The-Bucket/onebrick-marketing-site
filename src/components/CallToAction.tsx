@@ -7,7 +7,7 @@ import backgroundImage from '@/images/background-call-to-action.jpg'
 export function CallToAction() {
   return (
     <section
-      id="get-started-today"
+      id="complex-lots"
       className="relative overflow-hidden bg-violet-950 py-32"
     >
       <Image

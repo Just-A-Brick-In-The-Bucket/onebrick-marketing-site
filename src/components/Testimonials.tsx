@@ -81,7 +81,7 @@ function QuoteIcon(props: React.ComponentPropsWithoutRef<'svg'>) {
 export function Testimonials() {
   return (
     <section
-      id="testimonials"
+      id="reports"
       aria-label="What our customers are saying"
       className="bg-slate-50 py-20 sm:py-32"
     >
