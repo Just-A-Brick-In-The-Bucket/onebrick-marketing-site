@@ -20,7 +20,7 @@ export default function NotFound() {
         Sorry, we couldn’t find the page you’re looking for.
       </p>
       <Button href="/" className="mt-10">
-        Go back home
+        Back to OneBrick
       </Button>
     </SlimLayout>
   )
