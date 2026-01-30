@@ -89,7 +89,7 @@ function MobileNavigation() {
             <MobileNavLink href="#features">Features</MobileNavLink>
             <MobileNavLink href="#testimonials">Testimonials</MobileNavLink>
             <MobileNavLink href="#pricing">Pricing</MobileNavLink>
-             <NavLink href="https://docs.getonebrick.com/">Documentation</NavLink>
+             <MobileNavLink href="https://docs.getonebrick.com/">Documentation</MobileNavLink>
             <hr className="m-2 border-slate-300/40" />
             <MobileNavLink href="/login">Sign in</MobileNavLink>
           </PopoverPanel>
@@ -113,6 +113,7 @@ export function Header() {
               <NavLink href="#inventory">Inventory</NavLink>
               <NavLink href="#reports">Reports</NavLink>
               <NavLink href="#pricing">Pricing</NavLink>
+              <NavLink href="https://docs.getonebrick.com/">Documentation</NavLink>
             </div>
           </div>
           <div className="flex items-center gap-x-5 md:gap-x-8">
