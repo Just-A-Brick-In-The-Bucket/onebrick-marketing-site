@@ -89,6 +89,7 @@ function MobileNavigation() {
             <MobileNavLink href="#features">Features</MobileNavLink>
             <MobileNavLink href="#testimonials">Testimonials</MobileNavLink>
             <MobileNavLink href="#pricing">Pricing</MobileNavLink>
+             <NavLink href="https://docs.getonebrick.com/">Documentation</NavLink>
             <hr className="m-2 border-slate-300/40" />
             <MobileNavLink href="/login">Sign in</MobileNavLink>
           </PopoverPanel>
