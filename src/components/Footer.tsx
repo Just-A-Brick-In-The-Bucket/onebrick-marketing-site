@@ -16,7 +16,7 @@ export function Footer() {
               <NavLink href="#secondary-feature">Inventory</NavLink>
               <NavLink href="#testimonials">Reports</NavLink>
               <NavLink href="#pricing">Pricing</NavLink>
-              <NavLink href="Documentatio">Documentation</NavLink>
+              <NavLink href="https://docs.getonebrick.com/">Documentation</NavLink>
             </div>
           </nav>
         </div>
