@@ -150,7 +150,7 @@ export function Pricing() {
           <Plan
             featured
             name="Seller"
-            price="$49/mo"
+            price="$59/mo"
             description="Perfect for small / medium sized stores processing up to 150 orders per month."
             href="/register"
             features={[
