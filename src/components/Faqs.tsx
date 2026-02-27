@@ -18,7 +18,7 @@ const faqs = [
     {
       question: 'Is there a mobile version of OneBrick available?',
       answer:
-        'While we do not currently have a mobile app, OneBrick is designed to work well on most screen sizes, providing access to essential functions from anywhere. Tablets and computers currently works best.',
+        'While we do not currently have a mobile app, OneBrick is designed to work well on most screen sizes, providing access to essential functions from anywhere. Tablets and computers currently work best.',
     },
   ],
   [
