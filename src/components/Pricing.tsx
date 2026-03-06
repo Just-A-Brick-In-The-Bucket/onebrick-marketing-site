@@ -172,7 +172,7 @@ export function Pricing() {
               'Everything In The Seller Tier, plus:',
               'Process An Unlimited Amount of Orders',
               'Add Up to 10 Users',
-              'eBay Syncing (Coming Soon)',
+              'eBay Syncing (Coming Next Year)',
               'Annual Subscription Option',
             ]}
           />

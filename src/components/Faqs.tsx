@@ -25,7 +25,7 @@ const faqs = [
     {
       question: 'How often is OneBrick updated?',
       answer:
-        'We regularly update OneBrick to introduce new features, improve existing functionalities, and ensure compatibility with the latest market trends and technologies.  Most updates will occur at 5:00pm PDT on Wednesdays.  For larger releases, we will have a new release version announced.',
+        'We regularly update OneBrick to introduce new features, improve existing functionalities, and ensure compatibility with the latest market trends and technologies.  Most major updates will occur at 5:00pm PDT on Wednesdays.  For larger releases, we will have a new release version announced.',
     },
     {
       question: 'Is there a trial period for OneBrick?',

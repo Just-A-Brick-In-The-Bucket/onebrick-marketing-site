@@ -37,7 +37,7 @@ export function Hero() {
           Sign Up Now
         </Button>
         <Button
-          href="https://youtu.be/c67VI-YC75k"
+          href="https://youtu.be/KOTJymkDcDw"
           target="blank"
           variant="outline"
         >
