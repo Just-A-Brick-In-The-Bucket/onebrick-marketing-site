@@ -160,7 +160,6 @@ export function Pricing() {
               'Brickognize Integration',
               'Advanced Reporting Suite',
               'Simple Consolidation (Coming Soon)',
-              'Basic Audit Log (Coming Soon)',
             ]}
           />
           <Plan

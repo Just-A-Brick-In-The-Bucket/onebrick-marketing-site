@@ -25,7 +25,7 @@ export function CallToAction() {
           </h2>
           <p className="mt-4 text-lg tracking-tight text-white">
             Effortlessly unite your unconsolidated inventory and create a
-            seamless purchase experience for your customers.
+            seamless purchase experience for your customers. Included in every tier!
           </p>
           <Button
             href="https://onebrick.app/register"
